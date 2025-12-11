@@ -1,4 +1,4 @@
-const PASSWORD = "1";   // >>> GANTI PASSWORD DI SINI <<<
+const PASSWORD = "010906";   // >>> GANTI PASSWORD DI SINI <<<
 
 const loginBox = document.getElementById('loginBox');
 const dataBox = document.getElementById('dataBox');
@@ -30,3 +30,4 @@ function loadData() {
     tbody.appendChild(row);
   });
 }
+
