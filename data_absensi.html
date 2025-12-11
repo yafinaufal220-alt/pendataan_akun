@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Absensi</title>
+  <link rel="stylesheet" href="absensi.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div id="loginBox">
+    <h2>Masukkan Password</h2>
+    <input type="password" id="passwordInput" placeholder="Password">
+    <button id="loginBtn">Masuk</button>
+    <p id="errorMsg" style="color:red; display:none;">Password salah!</p>
+  </div>
+
+  <div id="dataBox" style="display:none;">
+    <h1>Data Akun</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID Akun</th>
+          <th>Password Akun</th>
+          <th>Waktu Mengirim</th>
+        </tr>
+      </thead>
+      <tbody id="dataTbody"></tbody>
+    </table>
+
+    <button onclick="location.href='index.html'" style="margin-top:15px;">Kembali</button>
+  </div>
+
+</div>
+
+<script src="data_absensi.js" defer></script>
+</body>
+</html>
